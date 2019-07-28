@@ -1,0 +1,19 @@
+{
+  "name": "webpack-jquery",
+  "version": "1.0.0",
+  "description": "Basic web based project with Webpack and jQuery.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "start": "http-server",
+    "webpack": "webpack"
+  },
+  "author": "Nicholas Graf",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^8.0.6",
+    "jquery": "^3.4.1",
+    "webpack": "^4.38.0"
+  }
+}
