@@ -149,7 +149,7 @@ eval("\n/**\n * When source maps are enabled, `style-loader` uses a link element
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\r\n__webpack_require__(/*! ./index.scss */ \"./src/index.scss\");\r\n\r\n\r\n// Custom Javascript\r\n\r\nalert(\"hello world\");\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("// DO NOT EDIT\r\nvar $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\r\n__webpack_require__(/*! ./index.scss */ \"./src/index.scss\");\r\n// End: DO NOT EDIT\r\n\r\n\r\n// Custom Javascript Below Here\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 

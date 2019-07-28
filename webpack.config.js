@@ -6,7 +6,8 @@ module.exports = {
     entry: "./src/index.js",
     output: {
         path: path.resolve(__dirname, 'dist'), // output directory
-        filename: "[name].js" // name of the generated bundle
+       // filename: "[name].js" // name of the generated bundle
+        filename: "index.js" // name of the generated bundle
     },
     module: {
         rules: [
