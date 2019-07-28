@@ -1,0 +1,23 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: normal;
+    margin: 0 0 .5em 0;
+}
+
+.wrap {
+    margin: 0 auto;
+    padding: 1em;
+    position: relative;
+    text-align: center;
+}
